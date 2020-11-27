@@ -19,6 +19,7 @@ try:
 
     check_data = client.get(data_key)
     print(check_data)
+    print('ending')
     # client.delete('name')
 
     # result = client.keys()
